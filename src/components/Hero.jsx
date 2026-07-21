@@ -11,7 +11,7 @@ function Hero() {
           Varun <span className="text-sky-400">Jammalamadaka</span>
         </h1>
 
-        <p className="mt-6 text-xl text-gray-300">
+        <p className="mt-6 text-xl text-sky-400">
           Finance Student | Corporate Finance | FP&A | Financial Analysis
         </p>
 
@@ -42,7 +42,7 @@ function Hero() {
   <img
     src={heroImage}
     alt="Finance Illustration"
-    className="w-full max-w-2xl h-72 object-cover rounded-2xl shadow-2xl"
+    className="w-full max-w-2xl h-125 object-cover rounded-2xl shadow-2xl"
   />
 </div>
       </div>
