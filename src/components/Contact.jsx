@@ -1,4 +1,5 @@
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -37,6 +38,16 @@ function Contact() {
             <FaLinkedin />
             LinkedIn
           </a>
+
+       <a
+  href="https://github.com/YOUR_USERNAME"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 text-sky-400 hover:text-sky-300"
+>
+  <FaGithub size={24} />
+  GitHub
+</a>
 
         </div>
 
