@@ -3,8 +3,8 @@ import heroImage from "../assets/hero.illustration.jpg";
 function Hero() {
   return (
     <section
-      id="home"
-      className="min-h-screen flex items-center justify-center px-6 -mt-16"
+  id="home"
+  className="min-h-screen flex items-start justify-center px-6 pt-32"
     >
       <div className="text-center max-w-4xl">
         <h1 className="text-6xl font-bold text-white">
@@ -38,13 +38,13 @@ function Hero() {
         </div>
 
         {/* Hero Image */}
-        <div className="mt-12 flex justify-center">
-          <img
-            src={heroImage}
-            alt="Finance Illustration"
-            className="w-full max-w-3xl rounded-2xl shadow-2xl"
-          />
-        </div>
+        <div className="mt-8 flex justify-center">
+  <img
+    src={heroImage}
+    alt="Finance Illustration"
+    className="w-full max-w-md h-40 object-cover rounded-2xl shadow-2xl"
+  />
+</div>
       </div>
     </section>
   );
