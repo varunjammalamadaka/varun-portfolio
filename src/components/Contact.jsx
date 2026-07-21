@@ -1,5 +1,4 @@
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -40,12 +39,12 @@ function Contact() {
           </a>
 
        <a
-  href="https://github.com/YOUR_USERNAME"
+  href="https://github.com/varunjammalamadaka"
   target="_blank"
   rel="noopener noreferrer"
-  className="flex items-center gap-2 text-sky-400 hover:text-sky-300"
+  className="flex items-center justify-center gap-3 text-white text-xl hover:text-sky-400 transition"
 >
-  <FaGithub size={24} />
+  <FaGithub />
   GitHub
 </a>
 
