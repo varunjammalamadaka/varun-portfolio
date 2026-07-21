@@ -38,11 +38,11 @@ function Hero() {
         </div>
 
         {/* Hero Image */}
-        <div className="mt-8 flex justify-center">
+        <div className="mt-24 flex justify-center">
   <img
     src={heroImage}
     alt="Finance Illustration"
-    className="w-full max-w-md h-40 object-cover rounded-2xl shadow-2xl"
+    className="w-full max-w-2xl h-72 object-cover rounded-2xl shadow-2xl"
   />
 </div>
       </div>
