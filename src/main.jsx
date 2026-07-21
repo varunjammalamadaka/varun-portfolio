@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import '@fontsource/inter'
+import '@fontsource/manrope'
 import './index.css'
 import App from './App.jsx'
 
