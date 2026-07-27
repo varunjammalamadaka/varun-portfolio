@@ -135,7 +135,7 @@ function Projects() {
             </h3>
 
             <p className="text-gray-300 mb-6">
-              Create an interactive dashboard to visualize revenue,
+              Created an interactive dashboard to visualize revenue,
               expenses, budgets, and key performance indicators.
             </p>
 
