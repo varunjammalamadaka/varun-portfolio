@@ -69,27 +69,64 @@ function Projects() {
   </a>
 </div>
 </div>
-          {/* Project 2 */}
-          <div className="bg-slate-900 rounded-xl p-8 shadow-lg hover:scale-105 transition">
-            <h3 className="text-2xl font-bold text-white mb-4">
-              DCF Valuation Model
-            </h3>
+        {/* Project 2 */}
+<div className="bg-slate-900 rounded-xl p-8 shadow-lg hover:scale-105 transition">
+  <h3 className="text-2xl font-bold text-white mb-4">
+    Apple DCF Valuation
+  </h3>
 
-            <p className="text-gray-300 mb-6">
-              Build a discounted cash flow model to estimate intrinsic value
-              using financial projections and valuation assumptions.
-            </p>
+  <p className="text-gray-300 mb-6">
+    Built a discounted cash flow valuation model for Apple Inc. by forecasting
+    revenue, free cash flow, terminal value, and estimating intrinsic share
+    price using valuation assumptions and sensitivity analysis.
+  </p>
 
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-                Valuation
-              </span>
+  <div className="flex flex-wrap gap-2 mb-6">
+    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+      Valuation
+    </span>
 
-              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-                Excel
-              </span>
-            </div>
-          </div>
+    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+      Excel
+    </span>
+
+    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+      DCF Modeling
+    </span>
+  </div>
+
+  <div className="flex flex-wrap gap-4">
+
+    {/* View */}
+    <a
+      href="/DCF_Valuation.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-lg hover:bg-sky-300 transition"
+    >
+      View
+    </a>
+
+    {/* Download PDF */}
+    <a
+      href="/DCF%20valuation.pdf"
+      download
+      className="border border-sky-400 text-sky-400 font-semibold px-4 py-2 rounded-lg hover:bg-sky-400 hover:text-slate-900 transition"
+    >
+      Download PDF
+    </a>
+
+    {/* Download Excel */}
+    <a
+      href="/DCF%20valuation.xlsx"
+      download
+      className="border border-green-400 text-green-400 font-semibold px-4 py-2 rounded-lg hover:bg-green-400 hover:text-slate-900 transition"
+    >
+      Download Excel
+    </a>
+
+  </div>
+</div>
 
           {/* Project 3 */}
           <div className="bg-slate-900 rounded-xl p-8 shadow-lg hover:scale-105 transition">
