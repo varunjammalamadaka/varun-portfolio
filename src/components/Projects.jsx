@@ -128,27 +128,64 @@ function Projects() {
   </div>
 </div>
 
-          {/* Project 3 */}
-          <div className="bg-slate-900 rounded-xl p-8 shadow-lg hover:scale-105 transition">
-            <h3 className="text-2xl font-bold text-white mb-4">
-              FP&A Dashboard
-            </h3>
+        {/* Project 3 */}
+<div className="bg-slate-900 rounded-xl p-8 shadow-lg hover:scale-105 transition">
+  <h3 className="text-2xl font-bold text-white mb-4">
+    FP&A Dashboard
+  </h3>
 
-            <p className="text-gray-300 mb-6">
-              Created an interactive dashboard to visualize revenue,
-              expenses, budgets, and key performance indicators.
-            </p>
+  <p className="text-gray-300 mb-6">
+    Created an interactive Power BI dashboard to analyze financial
+    performance, visualize revenue and expense trends, and track key
+    performance indicators for business decision-making.
+  </p>
 
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-                Power BI
-              </span>
+  <div className="flex flex-wrap gap-2 mb-6">
+    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+      Power BI
+    </span>
 
-              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-                FP&A
-              </span>
-            </div>
-          </div>
+    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+      FP&A
+    </span>
+
+    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+      Data Visualization
+    </span>
+  </div>
+
+  <div className="flex flex-wrap gap-4">
+
+    {/* Download PowerBI Data */}
+    <a
+      href="/FP^0A_Dashboard_Data.xlsx"
+      download
+      className="border border-green-400 text-green-400 font-semibold px-4 py-2 rounded-lg hover:bg-green-400 hover:text-slate-900 transition"
+    >
+      Download PowerBI Data
+    </a>
+
+    {/* View Visualization */}
+    <a
+      href="/FP&A_Dashboard.jpg"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-lg hover:bg-sky-300 transition"
+    >
+      View Visualization
+    </a>
+
+    {/* PowerBI File Download */}
+    <a
+      href="/FP&A_Dashboard_App.pbix"
+      download
+      className="border border-purple-400 text-purple-400 font-semibold px-4 py-2 rounded-lg hover:bg-purple-400 hover:text-slate-900 transition"
+    >
+      PowerBI File Download
+    </a>
+
+  </div>
+</div>
 
         </div>
 
