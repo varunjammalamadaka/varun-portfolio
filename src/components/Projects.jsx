@@ -171,7 +171,7 @@ function Projects() {
                   rel="noopener noreferrer"
                   className="bg-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-lg hover:bg-sky-300 transition"
                 >
-                  View Visualization
+                  View Visual
                 </a>
 
                 <a
