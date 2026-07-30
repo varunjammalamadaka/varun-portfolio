@@ -18,174 +18,182 @@ function Projects() {
         <div className="grid md:grid-cols-3 gap-8">
 
           {/* Project 1 */}
-<div className="bg-slate-900 rounded-xl p-8 shadow-lg hover:scale-105 transition">
-  <h3 className="text-2xl font-bold text-white mb-4">
-    Financial Statement Analysis
-  </h3>
+          <div className="bg-slate-900 rounded-xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300 flex flex-col h-full">
 
-  <p className="text-gray-300 mb-6">
-    Conducted a comprehensive financial analysis of Apple Inc. by evaluating
-    profitability, liquidity, leverage, cash flow, and investment outlook
-    using publicly available financial statements and SEC filings.
-  </p>
+            <h3 className="text-2xl font-bold text-white mb-4 min-h-[64px]">
+              Financial Statement Analysis
+            </h3>
 
-  <div className="flex flex-wrap gap-2 mb-6">
-    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-      Excel
-    </span>
+            <p className="text-gray-300 mb-6 flex-grow">
+              Conducted a comprehensive financial analysis of Apple Inc. by
+              evaluating profitability, liquidity, leverage, cash flow, and
+              investment outlook using publicly available financial statements
+              and SEC filings.
+            </p>
 
-    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-      Financial Analysis
-    </span>
-  </div>
+            <div className="flex flex-wrap gap-2 mb-6">
+              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+                Excel
+              </span>
 
-  <div className="flex gap-4">
-  {/* View */}
-  <a
-    href="/Apple_Financial_Statement_Analysis.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="bg-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-lg hover:bg-sky-300 transition"
-  >
-    View
-  </a>
+              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+                Financial Analysis
+              </span>
+            </div>
 
-  {/* Download */}
-  <a
-    href="/Apple_Financial_Statement_Analysis.pdf"
-    download
-    className="border border-sky-400 text-sky-400 font-semibold px-4 py-2 rounded-lg hover:bg-sky-400 hover:text-slate-900 transition"
-  >
-    Download PDF
-  </a>
+            <div className="mt-auto">
+              <div className="flex flex-wrap gap-3">
 
-  {/* Download Excel */}
-  <a
-    href="/Apple_Financial_Statement_Analysis.xlsx"
-    download
-    className="border border-green-400 text-green-400 font-semibold px-4 py-2 rounded-lg hover:bg-green-400 hover:text-slate-900 transition"
-  >
-    Download Excel
-  </a>
-</div>
-</div>
-        {/* Project 2 */}
-<div className="bg-slate-900 rounded-xl p-8 shadow-lg hover:scale-105 transition">
-  <h3 className="text-2xl font-bold text-white mb-4">
-    Apple DCF Valuation
-  </h3>
+                <a
+                  href="/Apple_Financial_Statement_Analysis.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-lg hover:bg-sky-300 transition"
+                >
+                  View
+                </a>
 
-  <p className="text-gray-300 mb-6">
-    Built a discounted cash flow valuation model for Apple Inc. by forecasting
-    revenue, free cash flow, terminal value, and estimating intrinsic share
-    price using valuation assumptions and sensitivity analysis.
-  </p>
+                <a
+                  href="/Apple_Financial_Statement_Analysis.pdf"
+                  download
+                  className="border border-sky-400 text-sky-400 font-semibold px-4 py-2 rounded-lg hover:bg-sky-400 hover:text-slate-900 transition"
+                >
+                  Download PDF
+                </a>
 
-  <div className="flex flex-wrap gap-2 mb-6">
-    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-      Valuation
-    </span>
+                <a
+                  href="/Apple_Financial_Statement_Analysis.xlsx"
+                  download
+                  className="border border-green-400 text-green-400 font-semibold px-4 py-2 rounded-lg hover:bg-green-400 hover:text-slate-900 transition"
+                >
+                  Download Excel
+                </a>
 
-    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-      Excel
-    </span>
+              </div>
+            </div>
 
-    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-      DCF Modeling
-    </span>
-  </div>
+          </div>
 
-  <div className="flex flex-wrap gap-4">
+          {/* Project 2 */}
+          <div className="bg-slate-900 rounded-xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300 flex flex-col h-full">
 
-    {/* View */}
-    <a
-      href="/DCF_Valuation.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="bg-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-lg hover:bg-sky-300 transition"
-    >
-      View
-    </a>
+            <h3 className="text-2xl font-bold text-white mb-4 min-h-[64px]">
+              Apple DCF Valuation
+            </h3>
 
-    {/* Download PDF */}
-    <a
-      href="/DCF%20valuation.pdf"
-      download
-      className="border border-sky-400 text-sky-400 font-semibold px-4 py-2 rounded-lg hover:bg-sky-400 hover:text-slate-900 transition"
-    >
-      Download PDF
-    </a>
+            <p className="text-gray-300 mb-6 flex-grow">
+              Built a discounted cash flow valuation model for Apple Inc. by
+              forecasting revenue, free cash flow, terminal value, and
+              estimating intrinsic share price using valuation assumptions and
+              sensitivity analysis.
+            </p>
 
-    {/* Download Excel */}
-    <a
-      href="/DCF%20valuation.xlsx"
-      download
-      className="border border-green-400 text-green-400 font-semibold px-4 py-2 rounded-lg hover:bg-green-400 hover:text-slate-900 transition"
-    >
-      Download Excel
-    </a>
+            <div className="flex flex-wrap gap-2 mb-6">
+              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+                Valuation
+              </span>
 
-  </div>
-</div>
+              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+                Excel
+              </span>
 
-        {/* Project 3 */}
-<div className="bg-slate-900 rounded-xl p-8 shadow-lg hover:scale-105 transition">
-  <h3 className="text-2xl font-bold text-white mb-4">
-    FP&A Dashboard
-  </h3>
+              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+                DCF Modeling
+              </span>
+            </div>
 
-  <p className="text-gray-300 mb-6">
-    Created an interactive Power BI dashboard to analyze financial
-    performance, visualize revenue and expense trends, and track key
-    performance indicators for business decision-making.
-  </p>
+            <div className="mt-auto">
+              <div className="flex flex-wrap gap-3">
 
-  <div className="flex flex-wrap gap-2 mb-6">
-    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-      Power BI
-    </span>
+                <a
+                  href="/DCF_Valuation.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-lg hover:bg-sky-300 transition"
+                >
+                  View
+                </a>
 
-    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-      FP&A
-    </span>
+                <a
+                  href="/DCF%20valuation.pdf"
+                  download
+                  className="border border-sky-400 text-sky-400 font-semibold px-4 py-2 rounded-lg hover:bg-sky-400 hover:text-slate-900 transition"
+                >
+                  Download PDF
+                </a>
 
-    <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
-      Data Visualization
-    </span>
-  </div>
+                <a
+                  href="/DCF%20valuation.xlsx"
+                  download
+                  className="border border-green-400 text-green-400 font-semibold px-4 py-2 rounded-lg hover:bg-green-400 hover:text-slate-900 transition"
+                >
+                  Download Excel
+                </a>
 
-  <div className="flex flex-wrap gap-4">
+              </div>
+            </div>
 
-    {/* Download PowerBI Data */}
-    <a
-      href="/FP^0A_Dashboard_Data.xlsx"
-      download
-      className="border border-green-400 text-green-400 font-semibold px-4 py-2 rounded-lg hover:bg-green-400 hover:text-slate-900 transition"
-    >
-      Download PowerBI Data
-    </a>
+          </div>
 
-    {/* View Visualization */}
-    <a
-      href="/FP&A_Dashboard.jpg"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="bg-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-lg hover:bg-sky-300 transition"
-    >
-      View Visualization
-    </a>
+          {/* Project 3 */}
+          <div className="bg-slate-900 rounded-xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300 flex flex-col h-full">
 
-    {/* PowerBI File Download */}
-    <a
-      href="/FP&A_Dashboard_App.pbix"
-      download
-      className="border border-purple-400 text-purple-400 font-semibold px-4 py-2 rounded-lg hover:bg-purple-400 hover:text-slate-900 transition"
-    >
-      PowerBI File Download
-    </a>
+            <h3 className="text-2xl font-bold text-white mb-4 min-h-[64px]">
+              FP&A Dashboard
+            </h3>
 
-  </div>
-</div>
+            <p className="text-gray-300 mb-6 flex-grow">
+              Created an interactive Power BI dashboard to analyze financial
+              performance, visualize revenue and expense trends, and track key
+              performance indicators for business decision-making.
+            </p>
+
+            <div className="flex flex-wrap gap-2 mb-6">
+              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+                Power BI
+              </span>
+
+              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+                FP&amp;A
+              </span>
+
+              <span className="bg-sky-400 text-slate-900 px-3 py-1 rounded-full text-sm">
+                Data Visualization
+              </span>
+            </div>
+
+            <div className="mt-auto">
+              <div className="flex flex-wrap gap-3">
+
+                <a
+                  href="/FP&A_Dashboard.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-lg hover:bg-sky-300 transition"
+                >
+                  View Visualization
+                </a>
+
+                <a
+                  href="/FP^0A_Dashboard_Data.xlsx"
+                  download
+                  className="border border-green-400 text-green-400 font-semibold px-4 py-2 rounded-lg hover:bg-green-400 hover:text-slate-900 transition"
+                >
+                  Download Data
+                </a>
+
+                <a
+                  href="/FP&A_Dashboard_App.pbix"
+                  download
+                  className="border border-purple-400 text-purple-400 font-semibold px-4 py-2 rounded-lg hover:bg-purple-400 hover:text-slate-900 transition"
+                >
+                  Download PBIX
+                </a>
+
+              </div>
+            </div>
+
+          </div>
 
         </div>
 
