@@ -115,7 +115,7 @@ function Projects() {
                 </a>
 
                 <a
-                  href="/DCF%20valuation.pdf"
+                  href="/DCF_Valuation.pdf"
                   download
                   className="border border-sky-400 text-sky-400 font-semibold px-4 py-2 rounded-lg hover:bg-sky-400 hover:text-slate-900 transition"
                 >
@@ -123,7 +123,7 @@ function Projects() {
                 </a>
 
                 <a
-                  href="/DCF%20valuation.xlsx"
+                  href="/DCF_Valuation.xlsx"
                   download
                   className="border border-green-400 text-green-400 font-semibold px-4 py-2 rounded-lg hover:bg-green-400 hover:text-slate-900 transition"
                 >
@@ -187,7 +187,7 @@ function Projects() {
                   download
                   className="border border-purple-400 text-purple-400 font-semibold px-4 py-2 rounded-lg hover:bg-purple-400 hover:text-slate-900 transition"
                 >
-                  Download PBIX
+                  Download Power BI File
                 </a>
 
               </div>
