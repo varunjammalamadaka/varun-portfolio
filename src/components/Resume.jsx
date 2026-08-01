@@ -25,7 +25,7 @@ function Resume() {
         <div className="flex flex-col sm:flex-row justify-center gap-6">
 
           <a
-            href="/resume.pdf"
+            href="/Varun_Jammalamadaka_Internship_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-sky-400 text-slate-900 font-semibold rounded-lg hover:bg-sky-300 transition"
@@ -35,7 +35,7 @@ function Resume() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/Varun_Jammalamadaka_Internship_Resume.pdf"
             download
             className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-sky-400 text-sky-400 font-semibold rounded-lg hover:bg-sky-400 hover:text-slate-900 transition"
           >
